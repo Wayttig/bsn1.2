@@ -1,0 +1,848 @@
+ *{
+     box-sizing: border-box;
+}
+
+ a{
+     text-decoration: none;
+     display: inline-block;
+}
+ ul, li{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+ .wrap-container{
+     max-width: 1170px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+ body {
+     font-family: 'PT Serif', serif;
+}
+ body p{
+     font-size: 14px;
+}
+ .header {
+     font-family: Roboto;
+}
+ .header__container__1 {
+     background-color: #303030;
+
+}
+ .header__menu__button{
+     display: none;
+}
+ .header__phone, .header__email {
+     color: #cbcacb;
+     line-height: 45px;
+     font-size: 14px;
+     position: relative;
+     padding-left: 20px;
+     padding-right: 30px;
+}
+ .header__phone {
+    
+}
+ .header__phone:before{
+     position: absolute;
+     content: "\f095";
+     font-family: 'icomoon';
+     left: 0px;
+     color: #ffcd21;
+}
+ .header__email:before {
+     content: "\f003";
+     font-family: 'icomoon';
+     color: #ffcd21;
+     position: absolute;
+     left: -2px;
+}
+ .header__right__bar {
+     float: right;
+     line-height: 36px;
+     color: #1b1b1b;
+     background-color: #ffc222;
+     padding: 4px 20px 4px 50px;
+     position: relative;
+}
+ .header__right__bar:before{
+     content: "\f0b1";
+     font-family: 'icomoon';
+     position: absolute;
+     left: 22px;
+}
+ .upper__navigation {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 25px;
+     padding-bottom: 20px;
+}
+ .header__menu ul{
+     display: flex;
+     flex-direction: row;
+}
+ .header__logo {
+     align-self: center;
+}
+ .header__menu a{
+     line-height: 36px;
+     padding: 0px 16px 0px 16px;
+     border: 1px solid transparent;
+     color: #323232;
+}
+ .header__menu li + li{
+     padding-left: 10px;
+}
+ .header__menu a:hover {
+     border: 1px solid #ffc222;
+     transition: 0.3s;
+}
+ .company__slider {
+     background-image: url(../images/header__bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     min-height: 500px;
+}
+ .slick-initialized .slick-slide{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .c__slider__buttons__wrapper{
+     position: relative;
+}
+ .slick-initialized .slick-slide{
+     outline: none;
+}
+ .slick__button{
+     z-index: 1;
+     position: absolute;
+     top: 70%;
+     width: 40px;
+     height: 40px;
+     border: 1px solid #fff;
+     background-color: #ffc222;
+     cursor: pointer;
+     outline: none;
+}
+ .slick__button.slick-disabled{
+     cursor: default;
+     background: transparent;
+}
+ .slick__button:before{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-family: 'icomoon';
+     background-repeat: no-repeat;
+}
+ .slick-next:before{
+     content: "\f105";
+     background-repeat: no-repeat;
+     font-family: 'icomoon';
+     color: #fff;
+}
+ .slick-next{
+     right: 0;
+}
+ .slick-prev:before{
+     content: "\f104";
+     background-repeat: no-repeat;
+     font-family: 'icomoon';
+     color: #fff;
+}
+ .slick-prev{
+     left: 0;
+}
+ .c__slider__button{
+     margin-top: 40px;
+}
+ .c__slider__main__text {
+     align-self: center;
+     display: flex;
+     flex-direction: column;
+     margin-top: 90px;
+     max-width: 700px;
+}
+ .c__slider__main__text h1{
+     font-size: 30px;
+     color: #ffffff;
+     text-align: center;
+     line-height: 28px;
+     font-weight: 500;
+     line-height: 1.2;
+     font-family: Roboto;
+}
+ .c__slider__text {
+     align-self: center;
+     max-width: 650px;
+margin-top: -15px;
+     line-height: 1.5;
+     text-align: center;
+     color: #d3d2d2;
+     }
+      .c__slider__text p{
+font-size: 18px;
+font-weight: lighter;
+      }
+
+ .default__button{
+     display: inline-block;
+     position: relative;
+     align-self: center;
+}
+ .default__button a{
+     padding: 13px 26px 13px 24px;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 500;
+     border: 1px solid transparent;
+     letter-spacing: 0.35px;
+     text-align: center;
+     color: #ffffff;
+     border: 1px solid #ffc222;
+     border-right: 20px solid #ffc222;
+}
+ .default__button:after{
+     content: "\f105";
+     font-family: 'icomoon';
+     position: absolute;
+     color: #ffffff;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 7px;
+}
+ .company__services {
+     min-height: 610px;
+     background-size: cover;
+}
+ .c__services__container__1{
+     margin-top: 30px;
+}
+ .c__services__container__1, .c__consult__content__bar {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+ .c__services__left__bar, .c__consult__bar__top, .c__news__left__bar{
+     max-width: 500px;
+     padding-left: 140px;
+     position: relative;
+}
+ .c__services__left__bar:before, .c__consult__bar__top :before, .c__news__left__bar :before{
+     content: " ";
+     position: absolute;
+     background-color: #ffc222;
+     height: 2px;
+     width: 105px;
+     left: 8px;
+     top: 30px;
+}
+ .c__services__left__bar h2, .c__consult__bar__top h2, .c__news__left__bar h2{
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 1;
+     font-family: Roboto;
+     color: #212020;
+}
+ .c__services__left__bar p, .c__consult__bar__top p, .c__news__left__bar p {
+     max-width: 386px;
+     color: #5e5e5e;
+     font-size: 14px;
+     line-height: 1.29;
+     letter-spacing: 0.14px;
+}
+ .c__services__up__button, .c__news__button {
+     align-self: center;
+     font-family: Roboto;
+     font-size: 14px;
+     letter-spacing: 0.35px;
+     text-align: center;
+     color: #373636;
+}
+ .c__services__up__button a, .c__news__button a{
+     border: solid 3px #e6e6e6;
+     padding: 12px 40px ;
+     color: #373636;
+}
+ .c__services__container__2 {
+     display: flex;
+     flex-direction: row;
+    
+     margin-top: 50px;
+     justify-content: space-between;
+}
+ .c__services__main__bar {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     max-width: 360px;
+     min-height: 367px;
+     justify-content: space-between;
+     padding: 24px 32px;
+     background-color: #f9f9f9;
+     box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+}
+ .c__services__inner__text h3{
+     font-family: Roboto;
+     font-size: 18px;
+     font-weight: 500;
+     color: #212020;
+     line-height: 1.33;
+}
+ .c__services__inner__text p{
+     margin-top: 25px;
+     line-height: 1.29;
+     letter-spacing: 0.14px;
+     text-align: center;
+     color: #5e5e5e;
+     font-size: 14px;
+}
+ .c__services__text__bar__2{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-bottom: 10px;
+     font-family: Roboto;
+}
+ .c__services__text__bar__2 .default__button a{
+     color: #373636;
+}
+ .c__services__btn__info {
+     align-self: center;
+     line-height: 1.29;
+     line-height: 1.29;
+     font-size: 14px;
+}
+ .c__services__btn__info a{
+     color: #050505;
+     line-height: 1.29;
+     padding-left: 10px;
+}
+ .ms__down .default__button a{
+}
+ .company__about {
+     background-image: url(../images/about-fon.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 300px;
+}
+ .c__about__wrapper{
+     display: flex;
+     flex-direction: column;
+}
+ .c__about__text__bar h2{
+     font-family: Roboto;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 1;
+     color: #ffffff;
+     margin-top: 35px;
+     margin-bottom: 35px;
+}
+ .c__about__text__bar p{
+     line-height: 1.71;
+     letter-spacing: 0.14px;
+     font-size: 14px;
+     max-width: 560px;
+     color: #d3d2d2;
+     margin-bottom: 35px;
+}
+ .c__about__button{
+     margin-bottom: 40px;
+}
+ .company__consultation {
+     min-height: 515px;
+}
+ .company__consultation img{
+     align-self: flex-end;
+     height: 459px;
+     margin-left: 55px;
+}
+ .c__consult__wrapper{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 35px;
+}
+ .c__consult__container__1 {
+     margin-top: 0px;
+     margin-bottom: 30px;
+     max-width: 850px;
+     width: 100%;
+}
+ .c__consult__content__bar {
+}
+ .c__consult__bar__top p{
+}
+ .c__consult__form__content {
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+ .c__consult__form__left__bar {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     min-height: 280px;
+     margin-right: 35px;
+     max-width: 264px;
+     width: 100%;
+}
+ .c__consult__form__right__bar {
+     display: flex;
+     flex-direction: column;
+     max-width: 558px;
+     width: 100%;
+     justify-content: space-between;
+}
+ .c__consult__form__content label{
+     line-height: 36px;
+     display: flex;
+     flex-direction: column;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     color: #282828;
+     line-height: 2.57;
+}
+ .c__consult__form__content input{
+     height: 40px;
+     margin-bottom: 8px;
+     outline: none;
+     border: 1px solid #e6e6e6;
+     padding: 0px 10px;
+}
+ .c__consult__form__content select, .c__consult__form__content textarea{
+     outline: none;
+     height: 40px;
+     padding-left: 17px;
+     border: 1px solid #e6e6e6;
+     padding: 0px 10px;
+}
+ .c__consult__form__content .jq-selector.jqselect{
+     display: block;
+     width: 100%;
+}
+ .c__consult__form__content .jq-selectbox__trigger-arrow:before{
+     content: "\f105";
+     font-family: 'icomoon';
+     position: absolute;
+     right: 17px;
+     top: 0;
+     transform: rotate(90deg);
+}
+ .c__consult__form__content .jq-selectbox__select-text{
+     padding-left: 18px;
+}
+ .c__consult__form__content .jq-selectbox__dropdown {
+     width: 100%;
+     margin: 2px 0 0;
+     padding: 0;
+     border: 1px solid #e6e6e6;
+     background: #FFF;
+     box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+ .c__consult__form__content .jq-selectbox li {
+     min-height: 18px;
+     padding: 5px 10px 6px;
+     color: #231F20;
+}
+ .c__consult__form__content .jq-selectbox li.selected {
+     background-color: #A3ABB1;
+     color: #FFF;
+}
+ .c__consult__form__content .jq-selectbox li:hover {
+     background-color: #08C;
+     color: #FFF;
+}
+ .c__consult__form__content .jq-selectbox li.disabled {
+     color: #AAA;
+}
+ .c__consult__form__content .jq-selectbox li.disabled:hover {
+     background: none;
+}
+ .c__consult__form__content .jq-selectbox li.optgroup {
+     font-weight: bold;
+}
+ .c__consult__form__content .jq-selectbox li.optgroup:hover {
+     background: none;
+     color: #231F20;
+     cursor: default;
+}
+ .c__consult__form__content .jq-selectbox li.option {
+     padding-left: 25px;
+}
+ .c__consult__form__content .jq-selectbox__select{
+     height: 40px;
+     border: 1px solid #e6e6e6;
+     background: transparent;
+     border-radius: 0;
+}
+ .c__consult__form__content textarea{
+     padding: 10px;
+     height: 204px;
+     resize: none;
+}
+ .c__consult__form__button{
+     position: relative;
+     align-self: flex-end;
+}
+ .c__consult__form__button button{
+     padding: 13px 26px 13px 24px;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 500;
+     border: 1px solid transparent;
+     letter-spacing: 0.35px;
+     text-align: center;
+     color: #ffffff;
+     border: 1px solid #ffc222;
+     border-right: 20px solid #ffc222;
+}
+ .c__consult__form__button:after{
+     content: "\f105";
+     font-family: 'icomoon';
+     position: absolute;
+     color: #282828;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 7px;
+}
+ .c__consult__form__right__bar button{
+     background: transparent;
+     color: #282828;
+}
+ .c__consult__form__button__inner {
+     cursor: pointer;
+}
+ .company__plusses {
+     background-image: url(../images/bg__2.png);
+     min-height: 290px;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .c__plusses__container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+ .c__plusses__container__inner {
+     display: flex;
+     flex-direction: column;
+     max-width: 360px;
+     text-align: center;
+     color: #ffffff;
+     padding-top: 45px;
+}
+ .c__plusses__header{
+     padding-top: 50px;
+     position: relative;
+}
+ .c__plusses__header:before{
+     content: "";
+     border: 2px solid #ffc222;
+     width: 40px;
+     height: 40px;
+     top: 0px;
+     left: 50%;
+     transform: translateX(-50%);
+     position: absolute;
+}
+ .c__plusses__header:after{
+     content: "\f00c";
+     font-family: 'icomoon';
+     position: absolute;
+     font-size: 14px;
+     top: 14px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+ .c__plusses__header h3{
+     line-height: 1.33;
+     font-size: 18px;
+     margin-bottom: 5px;
+     font-family: Roboto;
+     font-weight: normal;
+}
+ .c__plusses__text {
+     color: #d3d2d2;
+     line-height: 1.71;
+     letter-spacing: 0.14px;
+     font-size: 14px;
+}
+ .company__news {
+     display: flex;
+     flex-direction: column;
+     background-color: #f9f9f9;
+}
+ .c__news__wrapper{
+     display: flex;
+     flex-direction: column;
+     min-height: 635px;
+     margin-top: 30px;
+}
+ .c__news__container__1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+ .c__news__button__wrapper .slick-next{
+     right: -35px;
+     border: 0;
+}
+ .c__news__button__wrapper .slick-prev{
+     left: auto;
+     right: 20px;
+     border: 0;
+}
+ .slick__button__news{
+     z-index: 1;
+     position: absolute;
+     bottom: -130px;
+     width: 40px;
+     height: 40px;
+     border: 1px solid #fff;
+     background-color: #ffc222;
+     cursor: pointer;
+     outline: none;
+}
+ .slick__button__news.slick-disabled{
+     cursor: default;
+     background: transparent;
+     border: 1px solid #dadada;
+}
+ .slick__button__news.slick-disabled:before{
+     color: #dadada;
+}
+ .c__news__container__2 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 40px;
+}
+ .c__news__slider {
+     max-width: 610px;
+     min-height: 340px;
+     width: 100%;
+     background-color: #fff;
+     padding-left: 70px;
+     padding-right: 35px;
+     padding-top: 30px;
+     position: relative;
+}
+ .c__news__slider:after {
+     content: " ";
+     width: 65px;
+     height: 30px;
+     background-color: #ffc222;
+}
+ .c__news__box__slider span{
+     margin-top: 30px;
+     max-width: 365px;
+     color: #242424;
+     font-size: 18px;
+     line-height: normal;
+     font-family: Roboto;
+     font-weight: normal;
+}
+ .c__news__box__slider p{
+     margin-top: 20px;
+     max-width: 546px;
+     width: 100%;
+     font-size: 14px;
+     line-height: 1.29;
+     letter-spacing: 0.14px;
+     color: #5e5e5e;
+}
+ .c__news__box__slider__bottom {
+     margin-top: 20px;
+     color: black;
+}
+ .c__news__slider {
+     box-shadow: 0px 5px 15.4px 0.6px rgba(128, 127, 127, 0.13);
+     position: relative;
+}
+ .c__news__slider:before{
+     content: "\f10e";
+     position: absolute;
+     font-family: 'icomoon';
+     background-color: #ffc222;
+     font-size: 16px;
+     width: 65px;
+     height: 30px;
+     top: 0;
+     text-align: center;
+     line-height: 30px;
+     color: #fff;
+}
+ .c__news__box__slider__bottom {
+     color: #212020;
+     letter-spacing: 0.14px;
+     line-height: 1.29;
+     font-size: 14px;
+     font-family: Roboto;
+}
+ .c__news__box__right__wrapper{
+     display: flex;
+}
+ .c__news__box__right {
+     max-width: 265px;
+     max-height: 340px;
+     width: 100%;
+     margin-left: 25px;
+}
+ .c__news__box__img {
+     position: relative;
+}
+ .c__news__box__img:before {
+     content: " ";
+     position: absolute;
+     width: 47px;
+     height: 54px;
+     background-color: #ffc222;
+     background-repeat: no-repeat;
+     top: 0;
+     left: 10px;
+}
+ .c__news__date{
+     position: absolute;
+     top: 20px;
+     left: 15px;
+     font-size: 14px;
+     letter-spacing: normal;
+     color: #f9f9f9;
+}
+.c__news__box__text{
+      padding-left: 5px;
+}
+ .c__news__box__text p{
+    
+     margin-top: 10px;
+     max-width: 256px;
+     font-size: 14px;
+     line-height: 1.29;
+     letter-spacing: 0.14px;
+     text-align: left;
+     color: #5e5e5e;
+}
+ .c__news__box__text {
+     margin-top: 20px;
+}
+ .c__news__box__text span{
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 500;
+     letter-spacing: 0.8px;
+     text-align: left;
+     color: #242424;
+}
+ .company__contacts {
+     min-height: 340px;
+     background-color: #595959;
+}
+ .c__contacts__wrapper{
+     display: flex;
+}
+ .c__contacts__container__1 {
+     max-width: 350px;
+     display: flex;
+     flex-direction: column;
+}
+ .c__contacts__content {
+     display: flex;
+     flex-direction: column;
+}
+ .c__contacts__content h4{
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 500;
+     margin-top: 30px;
+     letter-spacing: 0.8px;
+     color: #ffffff;
+}
+ .c__contacts__content p{
+     padding-left: 4px;
+max-width: 320px;
+     margin-top: 0px;
+     font-family: Roboto;
+     font-size: 14px;
+     line-height: 1.29;
+     letter-spacing: normal;
+     color: #d3d2d2;
+}
+ .c__contacts__box {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+}
+ .c__consult__form__button__inner {
+     max-width: 264px;
+     
+}
+ .c__contacts__box .header__phone{
+     line-height: normal;
+      margin-top: 20px;
+}
+
+ .c__contacts__adress{
+     color: #cbcacb;
+     font-size: 14px;
+     position: relative;
+     padding-left: 20px;
+     padding-right: 30px;
+}
+ .c__contacts__adress:before{
+     position: absolute;
+     content: "\f041";
+     font-family: 'icomoon';
+     left: 0px;
+     color: #ffcd21;
+}
+ .c__contacts__map {
+     margin-left: 165px;
+     margin-top: 40px;
+}
+ .form__modal{
+     display: flex;
+     flex-direction: column;
+}
+ #modal{
+}
+ footer {
+     min-height: 30px;
+     line-height: 30px;
+     background-color: #303030;
+     text-align: center;
+     color: #fff;
+     letter-spacing: 0.6px;
+     font-family: Roboto;
+     font-size: 12px;
+}
+ #modal{
+     display: none;
+}
+ #modal{
+     width: 300px;
+}
+ #modal input{
+     display: block;
+     width: 100%;
+     margin-bottom: 20px;
+     outline: none;
+     height: 40px;
+     border: 1px solid #e6e6e6;
+     padding: 0px 10px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+}
+ #modal input[type="submit"]{
+     background-color: #ffc222;
+     border: none;
+}
+ .header__btn-menu{
+     display: none;
+     font-size: 28px;
+}
+ 

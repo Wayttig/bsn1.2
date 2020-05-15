@@ -1,0 +1,452 @@
+@media (max-width: 1270px){
+.c__news__container__2{
+}
+.c__news__container__2 button{
+margin-right: 5px;
+}
+.c__news__box__right__wrapper{
+display: flex;
+flex-direction: column;
+}
+.c__news__container__1{
+display: flex;
+flex-direction: row;
+}
+.c__news__slider{
+max-height: 300px;
+}
+.c__news__box__right__wrapper{
+margin-left: 30px;
+}
+.c__news__box__right__2{
+margin-top: 10px;
+}
+.c__news__container__2{
+margin-bottom: 40px;
+}
+}
+@media (max-width: 1170px){
+.c__services__container__1, .c__consult__content__bar {
+display: flex;
+justify-content: center;
+}
+.c__services__container__2 {
+display: flex;
+flex-direction: column;
+}
+.c__services__main__bar {
+max-width: 80%;
+margin: 30px auto;
+min-height: 310px;
+}
+.c__services__left__bar:before{
+display: none;
+}
+.c__services__left__bar h2, .c__consult__bar__top h2{
+text-align: left;
+}
+.c__services__left__bar{
+padding-left: 0px;
+}
+.c__services__up__button{
+margin-left: 30px;
+}
+.c__services__text__bar__2{
+text-align: center;
+align-self: center;
+padding: 0px;
+}
+.c__services__text__bar__2:before{
+display: none;
+}
+.c__services__up__button a{
+margin-top: 30px;
+}
+.c__services__text__bar__2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.c__services__btn__info {
+margin-right: 50px;
+}
+.c__about__wrapper{
+flex-direction: column;
+}
+.c__contacts__wrapper{
+display: flex;
+flex-direction: column;
+}
+.c__contacts__container__1{
+text-align: center;
+align-self: center;
+max-width: 100%;
+}
+.c__contacts__container__1{
+text-align: center;
+}
+.c__contacts__map{
+align-self: center;
+margin: 0px;
+}
+.c__contacts__map{
+margin-top: 30px;
+}
+.c__contacts__box a{
+text-align: left;
+}
+.c__contacts__box {
+align-items: center;
+}
+}
+@media (max-width: 940px){
+.company__consultation img{
+display: none;
+}
+.c__consult__bar__top{
+padding: 0px;
+}
+.c__consult__content__bar, .c__consult__content__bar h2{
+text-align: center;
+}
+.c__plusses__container{
+flex-direction: column;
+align-items: center;
+}
+.c__news__container__2{
+flex-direction: column;
+align-items: center;
+}
+.c__news__box__right__wrapper{
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+margin-left: 0px;
+}
+.c__news__container__2 button{
+top: -25px;
+margin-right: 5px;
+}
+.c__news__left__bar{
+padding: 0px;
+}
+.c__news__container__1{
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+.c__news__container__1 h2:before, .c__news__container__1 p:before{
+display: none;
+}
+}
+
+@media (max-width: 690px){
+
+.header__right__bar{
+float: none;
+}
+.header__wrapper{
+text-align: center;
+}
+.header__menu{
+}
+.header__menu__button{
+display: block;
+font-size: 28px;
+}
+.c__about__text__bar p, h2{
+text-align: center;
+}
+.c__about__button{
+text-align: center;
+}
+.c__services__container__1{
+display: flex;
+flex-direction: column;
+}
+.c__services__container__1 h2, p{
+text-align: center;
+}
+.c__services__left__bar {
+display: flex;
+flex-direction: column;
+align-self: center;
+padding-left: 10px;
+}
+.c__services__left__bar p{
+padding-right: 20px;
+}
+.header__menu ul{
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+margin-top: 20px;
+z-index: 50;
+}
+.header__menu li{
+display: block;
+text-align: center;
+}
+.header__menu a{
+display: block;
+background-color: #ffc222;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+.header__menu li + li{
+padding-left: 0;
+}
+.slick-next{
+right: 50px;
+top: 20px;
+}
+.slick-prev{
+left: 50px;
+top: 20px;
+}
+.c__consult__form__content{
+display: flex;
+flex-direction: column;
+}
+.c__consult__form__left__bar{
+align-self: center;
+}
+.c__consult__form__right__bar{
+align-self: center;
+}
+.c__consult__form__button{
+align-self: center;
+margin-top: 30px;
+}
+.c__consult__form__left__bar{
+padding-left: 18px;
+max-width: 100%;
+}
+.c__consult__bar__top{
+text-align: center;
+align-self: center;
+padding: 0px;
+}
+.c__consult__bar__top h2{
+text-align: center;
+}
+.c__consult__bar__top p:before, h2:before{
+display: none;
+}
+
+
+
+
+
+
+.c__plusses__container{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+.c__news__container__1{
+ max-width: 330px;
+
+}
+
+.c__news__slider{
+    max-width: 330px;
+    padding-left: 40px;
+    padding-right: 20px;
+    max-height: 1000px;
+    padding-bottom: 20px;
+}
+.c__news__container__2{
+    display: block;
+
+}
+.c__news__box__slider p{
+text-align: left;
+}
+
+.c__news__box__slider__bottom{
+    margin-top: 5px;
+}
+
+
+.c__news__box__right__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+ .c__news__box__right__2{
+    margin-top: 30px;
+}
+
+
+.slick__button__news.slick-prev{
+    top: -22px;
+    right: 35px;
+}
+
+
+.c__news__button__wrapper .slick-next{
+    right: -15px;
+    top: -22px;
+}
+
+
+
+
+.c__contacts__content p{
+    margin-top: -5px;
+}
+
+
+.c__contacts__map{
+    max-width: 300px;
+
+}
+.c__contacts__map iframe{
+    max-width: 300px;
+    margin-bottom: 20px;
+ 
+}
+
+
+
+
+
+
+
+}
+
+@media (max-width: 360px){
+
+.header__right__bar{
+    margin-top: 10px;
+}
+
+
+.c__services__left__bar p{
+ padding-left: 20px;
+padding-right: 30px;
+margin-top: 0px;
+}
+
+.c__services__container__2{
+  margin-top: 20px;
+
+}
+
+.c__services__btn__info{
+   margin-right: 30px;
+}
+
+.c__services__up__button {
+   margin: 0px;
+}
+.c__services__main__bar{
+
+    max-width: 95%;
+}
+
+
+.c__plusses__container{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+.c__news__container__1{
+ max-width: 330px;
+
+}
+.c__news__wrapper{
+   
+
+}
+.c__news__slider{
+    max-width: 330px;
+    padding-left: 40px;
+    padding-right: 20px;
+    max-height: 1000px;
+    padding-bottom: 20px;
+}
+.c__news__container__2{
+    display: block;
+
+}
+.c__news__box__slider p{
+text-align: left;
+}
+
+.c__news__box__slider__bottom{
+    margin-top: 5px;
+}
+
+
+.c__news__box__right__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+ .c__news__box__right__2{
+    margin-top: 30px;
+}
+
+
+.slick__button__news.slick-prev{
+    top: -22px;
+    right: 35px;
+}
+
+
+.c__news__button__wrapper .slick-next{
+    right: -15px;
+    top: -22px;
+}
+
+
+
+
+.c__contacts__content p{
+    margin-top: -5px;
+}
+
+
+.c__contacts__map{
+    max-width: 300px;
+
+}
+.c__contacts__map iframe{
+    max-width: 300px;
+    margin-bottom: 20px;
+ 
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width: 690px){
+.header__menu ul{
+display: flex !important;
+}
+@media (max-width: 540px){
+.c__services__container__1{
+justify-content: center;
+}
+.c__services__container__2 {
+max-width: 100%;
+}
+.c__services__main__bar {
+max-width: 100%;
+}
+}
+
